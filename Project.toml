@@ -1,0 +1,4 @@
+name = "TutorialsBuilder"
+uuid = "9c3cebce-e99c-4b8e-bf83-1fe9bd7084b7"
+authors = ["Thibaut Lienart <tlienart@amazon.com>"]
+version = "0.1.0"
