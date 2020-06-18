@@ -7,11 +7,13 @@ version = "0.1.0"
 Franklin = "713c75ef-9fc9-4b05-94a9-213340da978e"
 Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
 NodeJS = "2bd173c7-0d6d-553b-b6af-13a54713934c"
+PkgPage = "e7214860-93a8-4f22-b43d-bd447d1a2094"
 
 [compat]
 Franklin = "0.8"
 Literate = "2.5"
 NodeJS = "1.1"
+PkgPage = "0.1,0.2"
 julia = "1.3"
 
 [extras]

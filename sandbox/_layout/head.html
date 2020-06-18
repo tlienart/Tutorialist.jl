@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- XXX
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="Franklin 0.8">
+  -->
+
+  {{isdef title}}
+    <title>{{fill title}}</title>
+  {{end}}
+
+  <!-- XXX
+  <link rel="canonical" href="">
+  -->
+
+  <!-- highlight and katex -->
+  {{if hasmath}} {{insert head_katex.html }}     {{end}}
+  {{if hascode}} {{insert head_highlight.html }} {{end}}
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- favicon -->
+  <link rel="icon" href="/assets/layout/favicon.ico">
+
+</head>
+<body>
+  {{insert header.html}}
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+
+      {{insert sidebar.html}}
+
+      {{insert navbar.html}}
+
+<!-- Content appended here -->
